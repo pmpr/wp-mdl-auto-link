@@ -1,0 +1,9 @@
+{
+  "prod-require": {
+    "php": "8.2",
+    "wordpress": "6.0",
+    "wp-cmn-foundation": "latest"
+  },
+  "tag": "",
+  "timestamp": "1744903278"
+}

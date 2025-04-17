@@ -1,0 +1,320 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Auto Link\n"
+"POT-Creation-Date: 2025-04-09 17:20+0330\n"
+"PO-Revision-Date: 2025-04-09 17:21+0330\n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/AutoLink/Ajax.php:33
+msgid "Auto linking started successfully."
+msgstr "لینک‌سازی خودکار با موفقیت شروع شد."
+
+#: src/Pmpr/Module/AutoLink/Ajax.php:35
+msgid "Auto linking already started."
+msgstr "لینک‌سازی خودکار پیش از این شروع شده است."
+
+#: src/Pmpr/Module/AutoLink/Ajax.php:41
+msgid "Auto linking stopped successfully."
+msgstr "لینک‌سازی خودکار با موفقیت متوقف شد."
+
+#: src/Pmpr/Module/AutoLink/Ajax.php:44
+msgid "Auto linking already stopped."
+msgstr "لینک‌سازی خودکار پیش از این متوقف شده است."
+
+#: src/Pmpr/Module/AutoLink/Ajax.php:48
+msgid "Your request is not valid"
+msgstr "درخواست شما معتبر نیست"
+
+#: src/Pmpr/Module/AutoLink/AutoLink.php:27
+msgid "Auto Link Builder"
+msgstr "لینک ساز"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkDestination.php:20
+msgid "Link Destinations"
+msgstr "مقاصد لینک"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkDestination.php:21
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:73
+msgid "Link Destination"
+msgstr "مقصد لینک"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkDestination.php:37
+msgid "Object ID"
+msgstr "نوشته یا ترم"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkDestination.php:49
+msgid "Object Type"
+msgstr "نوع شی"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkDestination.php:50
+msgid "Post"
+msgstr "نوشته‌"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkDestination.php:51
+msgid "Term"
+msgstr "ترم"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkDestination.php:56
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:54
+msgid "Type"
+msgstr "نوع"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkDestination.php:61
+#: src/Pmpr/Module/AutoLink/Setting.php:88
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkDestination.php:66
+#: src/Pmpr/Module/AutoLink/Setting.php:47
+msgid "Keyword"
+msgstr "کلمه کلیدی"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkDestination.php:71
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:26
+msgid "Link Sources"
+msgstr "مبدا‌های لینک"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkDestination.php:76
+msgid "Linked Sources"
+msgstr "منابع لینک شدنی"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:27
+msgid "Link Source"
+msgstr "مبدا لینک"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:43
+msgid "Phrase"
+msgstr "اصطلاح"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:48
+msgid "Identifier"
+msgstr "شناسه"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:55
+#: src/Pmpr/Module/AutoLink/Setting.php:141
+msgid "Contentful"
+msgstr "داخل متن"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:56
+#: src/Pmpr/Module/AutoLink/Setting.php:142
+msgid "None Contentful"
+msgstr "بیرون متن"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:60
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:61
+msgid "Used"
+msgstr "استفاده شده"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:62
+msgid "Pending"
+msgstr "در انتظار"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:63
+msgid "Locked"
+msgstr "قفل شده"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:67
+msgid "Parent"
+msgstr "والد"
+
+#: src/Pmpr/Module/AutoLink/Model/LinkSource.php:79
+msgid "Linked Destination"
+msgstr "مقصد لینک شده"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:26
+msgid "AutoLink Setting"
+msgstr "تنظمات لینک ساز"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:27
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:60
+#: src/Pmpr/Module/AutoLink/Setting.php:65
+#: src/Pmpr/Module/AutoLink/Setting.php:76
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:62
+msgid "General Configuration"
+msgstr "پیکربندی عمومی"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:71
+#: src/Pmpr/Module/AutoLink/Setting.php:97
+msgid "Rules"
+msgstr "قواعد"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:73
+msgid "Define Linking Rules"
+msgstr "تعریف قواعد لینک‌سازی"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:81
+msgid "Links Count Threshold"
+msgstr "آستانه تعداد لینک"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:82
+#, php-format
+msgid "How many link must be chosen under %s tag?"
+msgstr "چه تعداد لینک در زیر هر تگ %s انتخاب شود؟"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:87
+msgid "Find Candidate to Linking By"
+msgstr "یافتن کاندید توسط"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:93
+msgid ""
+"Specify which parameter should be used for the search process in link "
+"building"
+msgstr "مشخص کنید کدام پارامتر برای فرایند جستجو در لینک سازی استفاده شود"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:99
+#, php-format
+msgid "Specify which %2$s, %1$s should link to."
+msgstr "مشخص کنید %1$s به کدام %2$s لینک بدهد."
+
+#: src/Pmpr/Module/AutoLink/Setting.php:100
+#: src/Pmpr/Module/AutoLink/Setting.php:110
+msgid "Source Type"
+msgstr "نوع مبدا"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:101
+#: src/Pmpr/Module/AutoLink/Setting.php:125
+msgid "Destination Types"
+msgstr "انواع مقصد"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:106
+msgid "Enabled"
+msgstr "فعال‌سازی"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:114
+#: src/Pmpr/Module/AutoLink/Setting.php:129
+msgid "Post Types"
+msgstr "نوع نوشته‌ها"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:119
+#: src/Pmpr/Module/AutoLink/Setting.php:134
+msgid "Taxonomies"
+msgstr "تکسنومی‌ها"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:140
+msgid "Link Type"
+msgstr "نوع لینک"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:146
+msgid "Compliance Rate"
+msgstr "میزان انطباق"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:147
+msgid "High"
+msgstr "بالا"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:148
+msgid "Middle"
+msgstr "میانه"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:149
+msgid "Low"
+msgstr "کم"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:157
+msgid "Start Auto Linking"
+msgstr "شروع لینک سازی خودکار"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:160
+msgid "Stop Auto Linking"
+msgstr "توقف لینک سازی خودکار"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:166
+msgid "Quick Actions"
+msgstr "عملیات سریع"
+
+#: src/Pmpr/Module/AutoLink/Setting.php:171
+msgid "You can control automatic link building activity through this section."
+msgstr "می‌توانید از طریق این بخش فعالیت لینک سازی خودکار را کنترل کنید."
+
+#~ msgid "Pillar"
+#~ msgstr "پیلار"
+
+#~ msgid "Cluster"
+#~ msgstr "کلاستر"
+
+#~ msgid "Normal"
+#~ msgstr "عادی"
+
+#~ msgid "Links"
+#~ msgstr "پیوند‌ها"
+
+#~ msgid "Link"
+#~ msgstr "پیوند"
+
+#~ msgid "Terms"
+#~ msgstr "اصطلاحات"
+
+#~ msgid "Candidate Terms"
+#~ msgstr "اصطلاحات کاندید"
+
+#~ msgid "Candidate Term"
+#~ msgstr "اصطلاح کاندید"
+
+#~ msgid "Linked"
+#~ msgstr "لینک شده"
+
+#~ msgid "FAQ"
+#~ msgstr "سوالات متداول"
+
+#~ msgid "Categories"
+#~ msgstr "دسته‌بندی‌ها"
+
+#~ msgid "Category"
+#~ msgstr "دسته‌بندی"
+
+#~ msgid "Name"
+#~ msgstr "نام"
+
+#~ msgid "Priority"
+#~ msgstr "الویت"
+
+#~ msgid "Created At"
+#~ msgstr "تاریخ ایجاد"
+
+#~ msgid "Question"
+#~ msgstr "سوال"
+
+#~ msgid "Publish"
+#~ msgstr "منتشر شده"
+
+#~ msgid "Creator"
+#~ msgstr "ایجاد کننده"
+
+#~ msgid "Response"
+#~ msgstr "پاسخ"
+
+#~ msgid "Frequently Asked Questions"
+#~ msgstr "سوالات متداول"
+
+#~ msgid "FAQ Page"
+#~ msgstr "صفحه سوالات متداول"
+
+#~ msgid "Page"
+#~ msgstr "صفحه"
+
