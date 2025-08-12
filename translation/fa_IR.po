@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Auto Link\n"
-"POT-Creation-Date: 2025-08-12 16:57+0330\n"
-"PO-Revision-Date: 2025-08-12 16:58+0330\n"
+"POT-Creation-Date: 2025-08-12 18:02+0330\n"
+"PO-Revision-Date: 2025-08-12 18:02+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -46,47 +46,55 @@ msgstr "درخواست شما معتبر نیست"
 msgid "Auto Link Builder"
 msgstr "لینک ساز"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:26
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:30
 #: src/Pmpr/Module/AutoLink/Model/SiteContent.php:77
 msgid "Content Segments"
 msgstr "بخش‌های محتوا"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:27
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:31
 #: src/Pmpr/Module/AutoLink/Model/PhraseDictionary.php:36
 #: src/Pmpr/Module/AutoLink/Setting.php:102
 msgid "Content Segment"
 msgstr "بخش محتوا"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:43
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:47
 #: src/Pmpr/Module/AutoLink/Model/PhraseDictionary.php:20
 #: src/Pmpr/Module/AutoLink/Model/PhraseMatch.php:36
 msgid "Phrase Dictionary"
 msgstr "دیکشنری عبارت"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:62
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:66
+msgid "Best Candidate"
+msgstr "بهترین کاندید"
+
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:69
+msgid "No candidate found yet."
+msgstr "کاندیدی یافت نشد."
+
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:150
 msgid "Identifier"
 msgstr "شناسه"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:68
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:156
 #: src/Pmpr/Module/AutoLink/Model/SiteContent.php:56
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:69
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:157
 #: src/Pmpr/Module/AutoLink/Setting.php:134
 msgid "Contentful"
 msgstr "داخل متن"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:70
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:158
 #: src/Pmpr/Module/AutoLink/Setting.php:135
 msgid "None Contentful"
 msgstr "بیرون متن"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:74
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:162
 msgid "Parent"
 msgstr "والد"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:80
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:168
 #: src/Pmpr/Module/AutoLink/Model/PhraseMatch.php:42
 #: src/Pmpr/Module/AutoLink/Model/SiteContent.php:21
 msgid "Site Content"
@@ -248,6 +256,9 @@ msgstr "عملیات سریع"
 msgid "You can control automatic link building activity through this section."
 msgstr "می‌توانید از طریق این بخش فعالیت لینک سازی خودکار را کنترل کنید."
 
+#~ msgid "not found"
+#~ msgstr "یافت نشد"
+
 #~ msgid "Link Destinations"
 #~ msgstr "مقاصد لینک"
 
@@ -307,9 +318,6 @@ msgstr "می‌توانید از طریق این بخش فعالیت لینک س
 
 #~ msgid "Candidate Terms"
 #~ msgstr "اصطلاحات کاندید"
-
-#~ msgid "Candidate Term"
-#~ msgstr "اصطلاح کاندید"
 
 #~ msgid "Linked"
 #~ msgstr "لینک شده"
