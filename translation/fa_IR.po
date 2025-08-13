@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Auto Link\n"
-"POT-Creation-Date: 2025-08-12 18:02+0330\n"
-"PO-Revision-Date: 2025-08-12 18:02+0330\n"
+"POT-Creation-Date: 2025-08-13 12:43+0330\n"
+"PO-Revision-Date: 2025-08-13 12:43+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -47,7 +47,7 @@ msgid "Auto Link Builder"
 msgstr "لینک ساز"
 
 #: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:30
-#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:77
+#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:78
 msgid "Content Segments"
 msgstr "بخش‌های محتوا"
 
@@ -71,30 +71,30 @@ msgstr "بهترین کاندید"
 msgid "No candidate found yet."
 msgstr "کاندیدی یافت نشد."
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:150
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:156
 msgid "Identifier"
 msgstr "شناسه"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:156
-#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:56
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:162
+#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:57
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:157
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:163
 #: src/Pmpr/Module/AutoLink/Setting.php:134
 msgid "Contentful"
 msgstr "داخل متن"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:158
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:164
 #: src/Pmpr/Module/AutoLink/Setting.php:135
 msgid "None Contentful"
 msgstr "بیرون متن"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:162
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:168
 msgid "Parent"
 msgstr "والد"
 
-#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:168
+#: src/Pmpr/Module/AutoLink/Model/ContentSegment.php:174
 #: src/Pmpr/Module/AutoLink/Model/PhraseMatch.php:42
 #: src/Pmpr/Module/AutoLink/Model/SiteContent.php:21
 msgid "Site Content"
@@ -114,7 +114,7 @@ msgid "Phrase Match"
 msgstr "تطبیق عبارت"
 
 #: src/Pmpr/Module/AutoLink/Model/PhraseMatch.php:20
-#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:71
+#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:72
 msgid "Phrase Matches"
 msgstr "تطابق عبارات"
 
@@ -130,24 +130,24 @@ msgstr "محتوای‌های سایت"
 msgid "Object ID"
 msgstr "نوشته یا ترم"
 
-#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:49
+#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:50
 msgid "Object Type"
 msgstr "نوع شی"
 
-#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:50
+#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:51
 msgid "Post"
 msgstr "نوشته‌"
 
-#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:51
+#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:52
 msgid "Term"
 msgstr "ترم"
 
-#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:61
+#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:62
 #: src/Pmpr/Module/AutoLink/Setting.php:80
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:66
+#: src/Pmpr/Module/AutoLink/Model/SiteContent.php:67
 #: src/Pmpr/Module/AutoLink/Setting.php:50
 msgid "Keyword"
 msgstr "کلمه کلیدی"
@@ -228,33 +228,35 @@ msgstr "نوع لینک"
 msgid "Compliance Rate"
 msgstr "میزان انطباق"
 
-#: src/Pmpr/Module/AutoLink/Setting.php:141
-msgid "High"
-msgstr "بالا"
-
 #: src/Pmpr/Module/AutoLink/Setting.php:142
-msgid "Middle"
-msgstr "میانه"
+#, php-format
+msgid "Use a number between %s and %s."
+msgstr "از عددی بین %s و %s استفاده کنید."
 
-#: src/Pmpr/Module/AutoLink/Setting.php:143
-msgid "Low"
-msgstr "کم"
-
-#: src/Pmpr/Module/AutoLink/Setting.php:151
+#: src/Pmpr/Module/AutoLink/Setting.php:152
 msgid "Start Auto Linking"
 msgstr "شروع لینک سازی خودکار"
 
-#: src/Pmpr/Module/AutoLink/Setting.php:154
+#: src/Pmpr/Module/AutoLink/Setting.php:155
 msgid "Stop Auto Linking"
 msgstr "توقف لینک سازی خودکار"
 
-#: src/Pmpr/Module/AutoLink/Setting.php:160
+#: src/Pmpr/Module/AutoLink/Setting.php:161
 msgid "Quick Actions"
 msgstr "عملیات سریع"
 
-#: src/Pmpr/Module/AutoLink/Setting.php:165
+#: src/Pmpr/Module/AutoLink/Setting.php:166
 msgid "You can control automatic link building activity through this section."
 msgstr "می‌توانید از طریق این بخش فعالیت لینک سازی خودکار را کنترل کنید."
+
+#~ msgid "High"
+#~ msgstr "بالا"
+
+#~ msgid "Middle"
+#~ msgstr "میانه"
+
+#~ msgid "Low"
+#~ msgstr "کم"
 
 #~ msgid "not found"
 #~ msgstr "یافت نشد"
